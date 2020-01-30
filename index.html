@@ -12,7 +12,24 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <!-- Jumbotron with header -->
+        <div class="jumbotron text-center">
+            <h1>My Gifs</h1>
+        </div>
+        <!-- div buttons will go here -->
+        <div id="div-buttons"></div>
+
+        <!-- new gif form -->
+        <form>
+            <label for="input">Add a GIF</label>
+            <input type="text" id="input">
+            <!-- button -->
+            <input type="submit" id="addGIF" value="Submit">
+        </form>
+        <!-- GIFS will go here -->
+        <div id="gifView" data-state="still"></div>
+    </div>
 
     <!-- Scripts -->
 
